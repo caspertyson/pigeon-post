@@ -1,0 +1,82 @@
+/* SideBySideComponent.css */
+#landingPageContainer {
+    display: flex;
+    width: 1400px;
+}
+
+#landingPageLeft {
+    width: 70%;
+    padding: 1rem;
+    padding-left: 30px;
+}
+#landingPageLeft h1{
+    font-size: 45px;
+}
+#landingPageDescription{
+    width: 700px;
+    line-height: 25px;
+    font-weight: 500;
+}
+#landingPageRight {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#landingPageRight img {
+    margin-top: 100px;
+}
+#button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.landingPageCheckMark{
+    width: 20px;
+    height: 20px;
+}
+
+.landingPageDivCheckMark{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.landingPageDivCheckMark p{
+    display: inline-block;
+    width: auto;
+    padding-left: 20px;
+    font-weight: 500;
+}
+#landingPageLogin{
+    border: none;
+    background-color: #16161D;
+    width: 150px;
+    height: 40px;
+    padding: 7px;
+    border-radius: 7px;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#landingPageSignup{
+    background-color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 7px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#landingPageSignup:hover{
+    color: white;
+    background-color: rgb(103, 103, 103);
+}
+#landingPageLogin:hover{
+    color: #16161D;
+    background-color: rgb(103, 103, 103);
+}
