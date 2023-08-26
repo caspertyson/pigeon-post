@@ -2,7 +2,7 @@
 import React from 'react';
 import '../style/NavBar.css';
 
-const Navbar = () => {
+const Navbar = ({onShowMap}) => {
     return (
         <div className="navbar">
             <div id='navBarTitle'>
@@ -11,8 +11,7 @@ const Navbar = () => {
                 <a href="/">Pigeon Post</a>
             </div>
             <div id='navBarRightSide'>
-                <a id='navBarAbout' href="/about">About</a>
-                <button id='navBarViewMapButton'>View Map</button>
+                <button onClick={onShowMap}id='navBarViewMapButton'>View Map</button>
             </div>
         </div>
     );
